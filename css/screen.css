@@ -206,32 +206,49 @@ label {
 /* ===== LAYOUT STYLES ====== */
 
 form h1{
-
+  padding: 1em;
+  background-color: grey;
 }
 
 form p{
-
+  font-size: 0.825em; /* 0.9625em + 0.6875em/ 2 */
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+  background-color: darkgrey;
+  border-top: 0.5em solid black;
+  border-bottom: 0.5em solid black;
 }
 
 form{
+  /* Center */
+  margin: 0 auto;
+  text-align: center;
 
+  padding: 1em;
+  background-color: lightgrey;
 }
 
 #input-email > input{
+  border-radius: 0.5em;
 }
 
 #input-age-verification{
-
+  display: flex;
+  margin-bottom: 1em;
 }
 #input-age-verification > label{
-
+  order: -1;
+  font-size: 0.6875em; /* 1.375em / 2 */
+  padding-right: 1em;
 }
 
 #input-submit{
-
+  margin-top: 0.581em; /* 1.182em / 2 */
+  background-color: grey;
+  padding: 0.2em;
 }
 #input-submit > input{
-  
+  border-radius: 0.825em;
 }
 
 /* ===== STATE STYLES ======= */
