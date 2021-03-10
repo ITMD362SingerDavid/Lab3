@@ -192,6 +192,7 @@ img, audio, video {
 */
 
 html {
+  font-family: 'Merriweather', serif, 'Akaya Kanadaka', cursive, 'Raleway', sans-serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -206,11 +207,13 @@ label {
 /* ===== LAYOUT STYLES ====== */
 
 form h1{
+  font-family: 'Merriweather', serif;
   padding: 1em;
   background-color: grey;
 }
 
 form p{
+  font-family: 'Akaya Kanadaka', cursive;
   font-size: 0.825em; /* 0.9625em + 0.6875em/ 2 */
   margin-bottom: 1.5em;
   margin-top: 1em;
@@ -220,6 +223,7 @@ form p{
 }
 
 form{
+  font-family: 'Raleway', sans-serif;
   /* Center */
   margin: 0 auto;
   text-align: center;
