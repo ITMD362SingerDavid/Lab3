@@ -200,9 +200,38 @@ html {
 
 label {
   display: block;
+  text-align: left;
 }
 
 /* ===== LAYOUT STYLES ====== */
 
+form h1{
+
+}
+
+form p{
+
+}
+
+form{
+
+}
+
+#input-email > input{
+}
+
+#input-age-verification{
+
+}
+#input-age-verification > label{
+
+}
+
+#input-submit{
+
+}
+#input-submit > input{
+  
+}
 
 /* ===== STATE STYLES ======= */
