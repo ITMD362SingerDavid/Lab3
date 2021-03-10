@@ -253,6 +253,13 @@ form{
 }
 #input-submit > input{
   border-radius: 0.825em;
+  border-color: #d3d3d3;
+  background-color: #fcfcfc;
+}
+
+#input-submit > input[type="submit"]:hover{
+  border-color: #333533;
+  background-color: lightgrey;
 }
 
 /* ===== STATE STYLES ======= */
