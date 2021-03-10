@@ -256,3 +256,19 @@ form{
 }
 
 /* ===== STATE STYLES ======= */
+@media screen and (min-width: 429px){
+
+  #input-email > label{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  #input-email > input{
+    width: 50%;
+  }
+
+  #input-age-verification{
+  display: flex;
+  justify-content: center;
+  }
+}
